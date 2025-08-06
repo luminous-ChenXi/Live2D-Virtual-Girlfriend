@@ -52,7 +52,13 @@ pip install -r requirements.txt
 ```bash
 python -m spacy download zh_core_web_sm
 ```
-### 5. 配置文件设置
+
+### 5. 下载向量模型（建议开VPN）
+```bash
+python download.py
+```
+
+### 6. 配置文件设置
 
 修改`config.toml`文件中的以下配置：
 
@@ -68,10 +74,6 @@ python -m spacy download zh_core_web_sm
 #### 设备配置
 根据硬件情况修改`device`字段，按照配置文件中的注释说明进行设置。
 
-### 6. 下载向量模型（建议开VPN）
-```bash
-python download.py
-```
 ### 7. 启动程序（在此之前要运行GPTSovits apiv2服务）
 
 运行`run.bat`或执行`python main.py`

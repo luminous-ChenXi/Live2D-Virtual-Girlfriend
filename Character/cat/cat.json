@@ -9,6 +9,6 @@
     "ttf_rgb": [255, 255, 224],
     "subtitle_speed": 0.13,
     "speed_factor": 1.0,
-    "wake_word": ["猫猫"],
+    "wake_word": ["在吗"],
     "end_word": ["再见"]
 }
